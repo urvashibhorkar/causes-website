@@ -1,0 +1,24 @@
+#ASpotshopnow03{
+	left: 623px;
+	top: 520px;
+	background-color: #fff;
+	color: #000; /*text color*/
+	z-index: 100;
+	border: 1px solid #000;
+	font-weight: bold;
+	-webkit-transition: all 200ms ease-out;
+-moz-transition: all 200ms ease-out;
+-ms-transition: all 200ms ease-out;
+-o-transition: all 200ms ease-out;
+transition: all 200ms ease-out;
+	}
+#ASpotshopnow03:hover{
+	background-color: #000;
+	color: #fff; /*text color*/
+	z-index: 100;
+	text-decoration:none;
+	font-weight: bold;	
+	}
+
+
+	http://www.dirtymarkup.com/

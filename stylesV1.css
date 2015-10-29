@@ -1,0 +1,649 @@
+* {
+    border: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #000026;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+
+section {
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    height: 100%;
+}
+
+h1 {
+    color: #000026;
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+nav {
+    height:80px;
+}
+h2 {
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+p {
+    color: grey;
+    text-align: center;
+    font-family: arial;
+    text-transform: lowercase;
+}
+
+li {
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    margin: 25px 20px 25px 0;
+    font-weight: 600;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+/* top navigation */
+#logocontainer {
+    width: 450px;
+    background-color: #fff;
+    float: left;
+    z-index: 10;
+    height: 80px;
+}
+#logo {
+    position: relative;
+    z-index: 100;
+    float: left;
+    margin: 5px 0 5px 20px;
+    height: 70px;
+    width: 70px;
+
+}
+#logotext {
+    position: relative;
+    z-index: 100;
+    float: left;
+    margin: 28px 0 10px 20px;
+    height: 80px;
+    color: #fff;
+    font-family: sans-serif;
+
+}
+#menu {
+    text-align: center;
+    padding: 0;
+    text-transform: uppercase;
+    width: 572px;
+    float: right;
+    margin: 7px 30px auto 0;
+    font-family: sans-serif;
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+li a:hover {
+    opacity: .5;
+    filter: alpha(opacity=50);
+/* For IE8 and earlier */
+}
+
+
+/*start the content/section CSS*/ 
+#hero {
+    background-color: #fff;
+    width: 100%;
+    height: 1000px;
+    z-index: 0;
+}
+
+#heroimage {
+    opacity: 1.0;
+    filter: alpha(opacity=50);
+    z-index: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    background-image: url(http://i.huffpost.com/gen/1804148/images/o-WATER-AFRICA-facebook.jpg);
+        background-repeat: no-repeat;
+}
+
+.ctabutton {
+    border: 3px solid #a06700;
+    background-color: #FF8000;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: arial;
+    padding: 20px 86px;
+    top: 50px;
+    border-radius: 25px;
+    font-weight: 900;
+    position: relative;
+        margin: 50px auto;
+        left:43%;
+}
+
+.ctabutton:hover {
+    background-color: #a06700;
+    color: #fff;
+    transition: color 1s ease;
+}
+#ctahpwrap {
+    width: 100%;
+    height: 150px;
+        background-color: #BFBFBF;
+    filter: alpha(opacity=50);
+    position: relative;
+    border-top: 2px solid #989898;
+        border-bottom: 2px solid #989898;
+}
+#donatecontainer {
+    width: 1080px;
+    position: relative;
+    margin: 50px auto;
+    z-index: 0;
+}
+#row1 {
+    position: relative;
+    height: 436px;
+}
+
+
+#row2 {
+    position: relative;
+    height: 369px;
+}
+#row2 h2 {
+    margin-bottom: 50px;
+}
+    
+
+.imagebox {
+    width: 490px;
+    padding: 30px;
+    float: left;
+}
+
+.textbox {
+    width: 470px;
+    padding: 30px;
+    float: left;
+    position: relative;
+    top: 25%;
+    margin: auto;
+
+}
+#volunteercontainer {
+    position: relative;
+    height: 700px;
+width: 1080px;
+    z-index: 0;
+    margin: 0 auto;
+}
+#volunteercontainer h2 {
+ color: #000;
+    z-index: 0;
+    margin: 50px auto 30px auto;
+    font-size:2em;
+}
+#volunteercontainer p {
+margin-bottom: 20px;
+line-height: 16px;
+    z-index: 0;
+}
+.imageboxthree {
+    width: 300px;
+    height: 315px;
+    padding: 30px;
+float: left;
+    position: relative;
+}
+#imagecontainercolthree {
+    height: 400px;
+        position: relative;
+}
+#textwrapcolthree {
+    height: 500px;
+    position: relative;
+}
+#storiescontainer {
+    margin: 0 auto;
+width: 1080px;
+
+}
+#storiescontainer h2 {
+ color: #000;
+    z-index: 0;
+    margin: 50px auto 30px auto;
+    font-size:2em;
+}
+#storiesimagecontainer {
+        width: 1080px;
+}
+.horitzontalline {
+  margin-top: 40px;
+    border-top: 3px solid grey;
+}
+#emailformcontainer {
+     margin: 0 auto;
+width: 600px;
+   
+}
+/* stories CSS start */
+
+/*start the content/section CSS*/ 
+
+.clearfix:after {
+    content: "";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both; 
+}
+
+/*#story{*/
+    /*width: 800px;*/
+/*}*/
+#contentplaceholder {
+    height: 2200px;
+    background-color: #fff !important;
+        font-size: 10em;
+        color: #fff;
+        padding:1000px auto;
+        position: relative;
+        top: 100px;
+}
+.story-pic{
+    width: auto;
+    margin: 0 300px;
+    padding-top: 10px;
+
+}
+
+.story-head-text{
+    width: 1080px;
+    /*margin-left: 200px;*/
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    color: #000026;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 33px;
+        border-bottom: 2px solid grey;
+}
+
+.story-text{
+    width: 1050px;
+    margin: 0 100px 50px 100px;
+    /*margin-right: 100px;*/
+    text-align: justify;
+    color:#000026;
+    font-family: helvetica;
+    font-size: 14px;
+    clear: both;
+}
+/*end the content/section CSS */
+footer {
+ background-color: #000026;
+    height: 220px;
+    position: relative;
+}
+
+form    {
+background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
+background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+margin:50px auto;
+position:relative;
+width:550px;
+height:465px;
+font-family: Tahoma, Geneva, sans-serif;
+font-size: 14px;
+font-style: italic;
+line-height: 24px;
+font-weight: bold;
+color: #000026;
+text-decoration: none;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+padding:10px;
+border: 1px solid #999;
+border: inset 1px solid #333;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+form h1 {
+    margin-top:10px;
+}
+input    {
+width:375px;
+display:block;
+border: 1px solid #999;
+height: 25px;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+label {
+    position: relative;
+left: 15%;
+
+}
+textarea#feedback {
+width:375px;
+height:150px;
+}
+textarea.message {
+display:block;
+border: 1px solid #999;
+
+}
+input.button {
+width:150px;
+height:30px;
+    position: relative;
+    margin-top: 20px;
+margin-left: 115px;
+background: #000026;
+color:#fff;
+font-family: Tahoma, Geneva, sans-serif;
+
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+border: 1p solid #999;
+text-align: center;
+cursor:pointer;
+}
+input.button:hover {
+background:#fff;
+color: #000026;
+    transition: color 1s ease;
+}
+textarea:focus, input:focus {
+border: 1px solid #000026;
+}
+/* volunteer page */
+.volctabutton {
+    border: 3px solid #a06700;
+    background-color: #FF8000;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: arial;
+    padding: 10px 26px;
+    top: 35px;
+    border-radius: 25px;
+    font-weight: 900;
+    position: relative;
+        left: 95px;
+        font-size: .8em;
+}
+
+.volctabutton:hover {
+    background-color: #a06700;
+    color: #fff;
+    transition: color 1s ease;
+}
+#voluenteerwrapper {
+    top: 180px;
+    width: 1080px;
+    height: 730px;
+    padding-top:100px;
+    margin: 0 auto;
+}
+#voluenteerwrapper h1 {
+
+    width: 100%;
+    border-bottom: 2px solid grey;
+    padding-bottom: 10px;
+}
+#voluenteerwrapper h2 {
+    color: #000;
+    float: left;
+    display: block;
+}
+#volunteerpagecontainer {
+    position: relative;
+width: 1080px;
+    z-index: 0;
+    margin: 20 auto;
+        float: left;
+}
+#volunteerpagecontainer p {
+    position: relative;
+    text-transform: none;
+    padding-top: 10px;
+    font-size: 1.2em;
+    z-index: 0;
+    margin: 0 auto;
+}
+#registertextwrap {
+    width: 1080px;  
+    text-align: left;
+}
+#registertextwrap p {
+    line-height: 25px;
+    margin-left: 10px;
+    text-align: left;
+}
+.voltextbox {
+    width: 300px;
+        float: left;
+    margin: 30px;
+}
+.voltextbox img {
+
+}
+/* Donate Page*/
+#donatewrapper {
+    top: 180px;
+    width: 1080px;
+    height: 1150px;
+    padding-top:100px;
+    margin: 0 auto;
+}
+#donatewrapper h1 {
+
+    width: 100%;
+    border-bottom: 2px solid grey;
+    padding-bottom: 10px;
+}
+#donatewrapper h2 {
+
+    width: 100%;
+    padding-bottom: 10px;
+    color: green;
+    font-size: 1.3em;
+}
+#donatewrapper form h2 {
+text-align: left;
+    width: 100%;
+    padding-bottom: 10px;
+    color: #000026;
+    font-size: 1.2em;
+    margin: 20px 0px 15px 20px;
+}
+#donateform    {
+margin:0px auto;
+position:relative;
+width:550px;
+height:765px;
+font-family: Tahoma, Geneva, sans-serif;
+font-size: 14px;
+font-style: italic;
+line-height: 24px;
+font-weight: bold;
+padding:10px;
+background: #fff;
+border: none;
+box-shadow: none;
+}
+input    {
+width:375px;
+display:block;
+border: 1px solid #999;
+height: 25px;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+label {
+    position: relative;
+left: 15%;
+
+}
+#donateamount {
+margin:0 auto;
+position:relative;
+width:550px;
+height:65px;
+font-family: Tahoma, Geneva, sans-serif;
+font-size: 14px;
+font-style: italic;
+line-height: 14px;
+font-weight: bold;
+background: #fff;
+border: none;
+box-shadow: none;
+}
+#seccode{
+    width: 50px;
+}
+#ccexpdate {
+    width: 100px;
+    position:  relative;
+}
+select {
+    top:2px;
+    position: relative;
+    border: 1px solid grey;
+    width: 220px;
+    height:25px;
+}
+#zipcode {
+ width: 130px;
+ position: absolute;
+ top: 20px;
+ left:110%;
+}
+textarea#feedback {
+width:375px;
+height:150px;
+}
+textarea.message {
+display:block;
+border: 1px solid #999;
+
+}
+input.buttondonate {
+width:305px;
+height:45px;
+    position: relative;
+    margin-top: 20px;
+margin-left: 115px;
+background:     #FF8000;
+color:#fff;
+font-family: Tahoma, Geneva, sans-serif;
+
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+border: 1p solid #999;
+text-align: center;
+cursor:pointer;
+font-size: 1.2em;
+}
+input.buttondonate:hover {
+background:#fff;
+color: #000026;
+    transition: color 1s ease;
+}
+input.button {
+width:150px;
+height:30px;
+    position: relative;
+    margin-top: 20px;
+margin-left: 115px;
+background: #000026;
+color:#fff;
+font-family: Tahoma, Geneva, sans-serif;
+
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+border: 1p solid #999;
+text-align: center;
+cursor:pointer;
+}
+input.button:hover {
+background:#fff;
+color: #000026;
+    transition: color 1s ease;
+}
+textarea:focus, input:focus {
+border: 1px solid #000026;
+}
+/*footer*/
+#footnavwrap {
+    height: 60px;
+    text-align: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+        font-family: sans-serif;
+}
+#footnavwrap li:nth-child(1) {
+ border-right: 1px solid #fff;
+ padding-right: 30px;
+} 
+#footnavwrap li:nth-child(2) {
+ border-right: 1px solid #fff;
+ padding-right: 30px;
+} 
+#footnavwrap li:nth-child(3) {
+ border-right: 1px solid #fff;
+ padding-right: 30px;
+} 
+#footnavwrap li:nth-child(4) {
+ border-right: 1px solid #fff;
+ padding-right: 30px;
+} 
+#footaddress p{
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+    text-transform: none;
+        font-family: sans-serif;
+        font-size: 0.8em;
+}
+#socialmedia {
+        text-align: center;
+}
+.sociallogo {
+    width: 13px;
+    height: 13px;
+    border-radius: 5px;
+}
+.socialspacer {
+    margin-left: 5px;
+}
